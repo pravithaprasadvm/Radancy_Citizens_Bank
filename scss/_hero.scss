@@ -1,0 +1,19 @@
+// Hero Banner
+
+.hero-banner {
+  width: 100%;
+  background-color: $color-white;
+  overflow: hidden;
+
+  &__picture {
+    display: block;
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+}

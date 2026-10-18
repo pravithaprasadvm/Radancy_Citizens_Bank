@@ -1,0 +1,37 @@
+// Variables for Colors, Typography, Spacing, and Breakpoints
+
+// Brand Colors
+$color-primary: #008554;
+$color-primary-dark: #006b43;
+$color-heading: #008554;
+$color-cta: #d97618;
+$color-cta-hover: #c0630e;
+$color-link-olive: #708b26;
+$color-author: #009368;
+
+// Text Colors
+$color-text-body: #555555;
+$color-text-dark: #333333;
+$color-text-muted: #777777;
+
+// Background & Accents
+$color-bg-light: #ecf8f5;
+$color-quote-mark: #e3ece8;
+$color-border-divider: #e2ece8;
+$color-border-footer: #bcdad0;
+$color-white: #ffffff;
+
+// Typography (Strictly Arial base font as specified)
+$font-family-base: Arial, Helvetica, sans-serif;
+
+// Responsive Breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1280px;
+$desktop-large: 1920px;
+
+// Container: Exact match to the 1280px design canvas with 37px margins
+$container-max-width: 1206px;
+$container-padding-desktop: 37px;
+$container-padding-mobile: 18px;

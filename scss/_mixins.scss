@@ -1,0 +1,24 @@
+// Responsive Mixin matching exact user specification
+@mixin respond($bp) {
+  @media (max-width: $bp) {
+    @content;
+  }
+}
+
+// Minimum-width query for scaling to larger screens
+@mixin respond-min($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+// Utility mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin transition($prop: all, $time: 0.25s) {
+  transition: $prop $time ease-in-out;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "citizens-bank-landing-page",
+  "version": "1.0.0",
+  "description": "Citizens Bank Mortgage Loan Officer landing page built with HTML5, CSS3, and SCSS (No Bootstrap, Arial base font).",
+  "main": "index.html",
+  "scripts": {
+    "build:sass": "sass scss/style.scss css/style.css --source-map --silence-deprecation=import",
+    "watch:sass": "sass scss/style.scss css/style.css --watch --source-map --silence-deprecation=import",
+    "build": "npm run build:sass"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "scss",
+    "sass",
+    "responsive",
+    "vanilla-css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}

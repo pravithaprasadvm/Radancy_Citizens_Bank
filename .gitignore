@@ -1,0 +1,18 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Sass cache
+.sass-cache/
+*.css.map
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

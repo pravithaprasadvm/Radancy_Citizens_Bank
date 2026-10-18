@@ -1,0 +1,61 @@
+// Footprint Callout Box ("Citizens Bank and Citizens One Home Loans")
+
+.footprint-section {
+  padding: 15px 0 55px;
+
+  @include respond($tablet) {
+    padding: 10px 0 35px;
+  }
+}
+
+.footprint-box {
+  width: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  &__header {
+    background-color: $color-primary;
+    color: $color-white;
+    text-align: center;
+    padding: 16px 24px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+
+    @include respond($tablet) {
+      font-size: 18px;
+      padding: 12px 18px;
+    }
+
+    @include respond($mobile) {
+      font-size: 14px;
+      line-height: 1.35;
+      padding: 10px 14px;
+    }
+  }
+
+  &__body {
+    background-color: $color-bg-light;
+    padding: 30px 48px;
+    font-size: 17px;
+    line-height: 1.65;
+    color: $color-text-body;
+
+    @include respond($tablet) {
+      padding: 22px 28px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    @include respond($mobile) {
+      padding: 16px 18px;
+      font-size: 12.5px;
+      line-height: 1.55;
+    }
+
+    em {
+      font-style: italic;
+    }
+  }
+}
